@@ -13,3 +13,25 @@ banner:
   go_down:
     enable: true
     icon: icon-arrow-down-s-line
+    
+comment:
+  enable: true
+  tips:
+    - 若您想及时得到回复提醒，建议跳转 GitHub Issues 评论。
+    - 若没有本文 Issue，您可以使用 Comment 模版新建。
+  candidates:
+    - valine
+    - utterances
+    
+post_meta:
+  item_text: true
+  created_at: true
+  updated_at: true
+  categories: true
+  tags: true
+  
+wordcount:
+  enable: true
+  count: true
+  time: true
+  
